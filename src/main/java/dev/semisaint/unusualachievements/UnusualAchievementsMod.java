@@ -7,6 +7,7 @@ import dev.semisaint.unusualachievements.fabric.listener.StatThresholdEvaluator;
 import dev.semisaint.unusualachievements.fabric.listener.custom.CustomAchievementListeners;
 import dev.semisaint.unusualachievements.fabric.network.NetworkingInit;
 import dev.semisaint.unusualachievements.fabric.registry.AchievementDefinitions;
+import dev.semisaint.unusualachievements.fabric.registry.RarityBasis;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,9 @@ public class UnusualAchievementsMod implements ModInitializer {
 		// Fail-fast, same policy as duplicate achievement ids: a theme pointing at a renamed
 		// achievement would otherwise just be silently impossible to earn.
 		CardTheme.verifyPairings();
+		// Same reason: an achievement with no rarity basis loses its "once in N" line silently, which
+		// is exactly the kind of miss nobody spots until a player asks why one entry has no number.
+		RarityBasis.verifyCoverage();
 		NetworkingInit.registerCommon();
 		NetworkingInit.registerServer();
 		ServerLifecycleHooks.registerAll();

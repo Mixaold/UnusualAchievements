@@ -1,11 +1,15 @@
 package dev.semisaint.unusualachievements.fabric.registry;
 
+import dev.semisaint.unusualachievements.core.AchievementDefinition;
 import dev.semisaint.unusualachievements.core.AchievementId;
+import dev.semisaint.unusualachievements.core.AchievementRegistry;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -99,5 +103,33 @@ public enum RarityBasis {
 
 	public static RarityBasis forAchievement(AchievementId id) {
 		return BY_ACHIEVEMENT.get(id);
+	}
+
+	/**
+	 * Fails startup if the pairing above has drifted from the achievement registry, the same policy
+	 * CardTheme.verifyPairings() applies to themes.
+	 *
+	 * <p>The stat side of each basis is a compile-time Stats constant, so it cannot rot; the
+	 * achievement side is a plain string, and both ways of getting it wrong are silent. A registered
+	 * achievement with no basis simply loses its rarity line - no error, nothing in the log, and the
+	 * only way to notice is to earn that one achievement and look at the card. A basis pointing at a
+	 * renamed or deleted achievement is dead weight that hides the first problem from a head count.
+	 * Neither should survive a rename, so both stop the server instead.
+	 */
+	public static void verifyCoverage() {
+		List<String> problems = new ArrayList<>();
+		for (AchievementDefinition definition : AchievementRegistry.all()) {
+			if (!BY_ACHIEVEMENT.containsKey(definition.id())) {
+				problems.add("achievement '" + definition.id().path() + "' has no rarity basis");
+			}
+		}
+		for (AchievementId id : BY_ACHIEVEMENT.keySet()) {
+			if (AchievementRegistry.get(id).isEmpty()) {
+				problems.add("rarity basis points at unknown achievement '" + id.path() + "'");
+			}
+		}
+		if (!problems.isEmpty()) {
+			throw new IllegalStateException("Rarity basis coverage is broken: " + String.join("; ", problems));
+		}
 	}
 }
