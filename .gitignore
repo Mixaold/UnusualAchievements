@@ -1,0 +1,56 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# claude code
+
+.claude/
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# generator output - the PNGs that ship live in src/main/resources and icons/, these are the scratch copies
+
+tools/themes/
+tools/frames/
+tools/icon/
+tools/mockups/
+
+# local working notes - not part of the mod, kept out of the public repo
+
+HANDOFF.md
+docs/

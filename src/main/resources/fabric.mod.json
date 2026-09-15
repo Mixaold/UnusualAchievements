@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "unusualachievements",
+	"version": "${version}",
+	"name": "Unusual Achievements",
+	"description": "Fifty hidden achievements for things vanilla never thought to reward, shown on a personal card with earned backgrounds and a rarity read from your own statistics.",
+	"authors": [
+		"Mixaold"
+	],
+	"contact": {
+		"homepage": "https://github.com/Mixaold/UnusualAchievements",
+		"sources": "https://github.com/Mixaold/UnusualAchievements",
+		"issues": "https://github.com/Mixaold/UnusualAchievements/issues"
+	},
+	"license": "MIT",
+	"icon": {
+		"256": "assets/unusualachievements/icon.png",
+		"512": "assets/unusualachievements/icon_512.png"
+	},
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.semisaint.unusualachievements.UnusualAchievementsMod"
+		],
+		"client": [
+			"dev.semisaint.unusualachievements.client.UnusualAchievementsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

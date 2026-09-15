@@ -1,0 +1,57 @@
+{
+	"key.unusualachievements.open_card": "Open Achievement Card",
+	"key.category.unusualachievements.main": "Unusual Achievements",
+
+	"screen.unusualachievements.card.title": "Unusual Achievements",
+	"screen.unusualachievements.card.no_achievements": "No achievements yet.",
+	"screen.unusualachievements.card.unknown_player": "Nothing known about this player yet.",
+	"screen.unusualachievements.card.close": "Close",
+	"screen.unusualachievements.card.themes": "Themes",
+
+	"screen.unusualachievements.themes.title": "Card Themes",
+	"screen.unusualachievements.themes.none": "No theme",
+	"screen.unusualachievements.themes.locked": "Theme not unlocked yet",
+
+	"screen.unusualachievements.themes.about.title": "Card Themes",
+	"screen.unusualachievements.themes.about.line1": "Every theme is locked behind one achievement of its own. One each, no exceptions.",
+	"screen.unusualachievements.themes.about.line2": "Which goes with which? That I'm not telling. But the artwork usually hints at what you had to live through.",
+	"screen.unusualachievements.themes.about.line3": "Anyone who opens your card sees your theme - so pick one you don't mind showing off.",
+
+	"theme.unusualachievements.nether": "Ash and Lava",
+	"theme.unusualachievements.end": "The Void",
+	"theme.unusualachievements.ocean": "Ocean Depths",
+	"theme.unusualachievements.sculk": "Ancient City",
+	"theme.unusualachievements.enchant": "Enchanting Table",
+	"theme.unusualachievements.redstone": "Redstone",
+	"theme.unusualachievements.copper": "Patina",
+	"theme.unusualachievements.library": "Library",
+	"theme.unusualachievements.taiga": "Snowy Taiga",
+	"theme.unusualachievements.mushroom": "Mushroom Island",
+	"theme.unusualachievements.cherry": "Cherry Blossom",
+	"theme.unusualachievements.amethyst": "Amethyst Geode",
+
+	"screen.unusualachievements.about.title": "Unusual Achievements",
+	"screen.unusualachievements.about.line1": "It's a separate achievement system, not connected to the vanilla one.",
+	"screen.unusualachievements.about.line2": "How do you get them? Like we'd just tell you... You won't know until you've done it - that's the fun part.",
+	"screen.unusualachievements.about.line3": "Unlocked something? The indicator next to your hotbar (with a sound) will let you know.",
+	"screen.unusualachievements.about.line4": "Want to dig through someone else's little secrets? Aim at them and hit the same key.",
+
+	"rarity.unusualachievements.mob_kills": "Once in %s mob kills",
+	"rarity.unusualachievements.player_kills": "Once in %s player kills",
+	"rarity.unusualachievements.deaths": "Once in %s deaths",
+	"rarity.unusualachievements.play_time": "Once in %s hours played",
+	"rarity.unusualachievements.cake": "Once in %s slices of cake",
+	"rarity.unusualachievements.enchants": "Once in %s enchantments",
+	"rarity.unusualachievements.bell_rings": "Once in %s bell rings",
+	"rarity.unusualachievements.notes": "Once in %s notes played",
+	"rarity.unusualachievements.shulkers": "Once in %s shulkers opened",
+	"rarity.unusualachievements.trades": "Once in %s villager trades",
+	"rarity.unusualachievements.villager_talks": "Once in %s villager conversations",
+	"rarity.unusualachievements.nights": "Once in %s nights slept",
+	"rarity.unusualachievements.raids_won": "Once in %s raids won",
+	"rarity.unusualachievements.minecart_metres": "Once in %s m by minecart",
+	"rarity.unusualachievements.percent": " — %s%%",
+	"rarity.unusualachievements.among_players": " · held by %s of %s players",
+
+	"hud.unusualachievements.hint_open_card": "Press %s to find out"
+}

@@ -1,0 +1,57 @@
+{
+	"key.unusualachievements.open_card": "Открыть карточку достижений",
+	"key.category.unusualachievements.main": "Необычные достижения",
+
+	"screen.unusualachievements.card.title": "Необычные достижения",
+	"screen.unusualachievements.card.no_achievements": "Пока нет достижений.",
+	"screen.unusualachievements.card.unknown_player": "Об этом игроке пока ничего не известно.",
+	"screen.unusualachievements.card.close": "Закрыть",
+	"screen.unusualachievements.card.themes": "Темы",
+
+	"screen.unusualachievements.themes.title": "Темы карточки",
+	"screen.unusualachievements.themes.none": "Без темы",
+	"screen.unusualachievements.themes.locked": "Тема ещё не открыта",
+
+	"screen.unusualachievements.themes.about.title": "Темы карточки",
+	"screen.unusualachievements.themes.about.line1": "Каждая тема заперта за своим достижением. Одним — одна, и никак иначе.",
+	"screen.unusualachievements.themes.about.line2": "Какая за какой? Вот этого и не скажу. Но фон обычно намекает на то, что пришлось пережить.",
+	"screen.unusualachievements.themes.about.line3": "Тему видно всем, кто откроет твою карточку — так что выбирай ту, которой не стыдно хвастаться.",
+
+	"theme.unusualachievements.nether": "Пепел и лава",
+	"theme.unusualachievements.end": "Пустота Края",
+	"theme.unusualachievements.ocean": "Морская пучина",
+	"theme.unusualachievements.sculk": "Древний город",
+	"theme.unusualachievements.enchant": "Стол зачарований",
+	"theme.unusualachievements.redstone": "Красный камень",
+	"theme.unusualachievements.copper": "Патина",
+	"theme.unusualachievements.library": "Библиотека",
+	"theme.unusualachievements.taiga": "Снежная тайга",
+	"theme.unusualachievements.mushroom": "Грибной остров",
+	"theme.unusualachievements.cherry": "Цветущая сакура",
+	"theme.unusualachievements.amethyst": "Аметистовая жеода",
+
+	"screen.unusualachievements.about.title": "Необычные достижения",
+	"screen.unusualachievements.about.line1": "Это — отдельная система ачивок, она никак не связана с ванильной.",
+	"screen.unusualachievements.about.line2": "Как их получить? А тебе всё расскажи... Не узнаешь, пока не сделаешь — так интереснее.",
+	"screen.unusualachievements.about.line3": "Что-то разблокировал? Индикатор со звуком рядом с хотбаром даст тебе знать.",
+	"screen.unusualachievements.about.line4": "Хочешь покопаться в чужих секретиках? Наведись на игрока и нажми ту же клавишу.",
+
+	"rarity.unusualachievements.mob_kills": "Один раз на %s убийств",
+	"rarity.unusualachievements.player_kills": "Один раз на %s убитых игроков",
+	"rarity.unusualachievements.deaths": "Один раз на %s смертей",
+	"rarity.unusualachievements.play_time": "Один раз за %s ч. в игре",
+	"rarity.unusualachievements.cake": "Один раз на %s кусков торта",
+	"rarity.unusualachievements.enchants": "Один раз на %s зачарований",
+	"rarity.unusualachievements.bell_rings": "Один раз на %s ударов по колоколу",
+	"rarity.unusualachievements.notes": "Один раз на %s сыгранных нот",
+	"rarity.unusualachievements.shulkers": "Один раз на %s открытых шалкеров",
+	"rarity.unusualachievements.trades": "Один раз на %s сделок с жителями",
+	"rarity.unusualachievements.villager_talks": "Один раз на %s разговоров с жителями",
+	"rarity.unusualachievements.nights": "Один раз на %s ночей в кровати",
+	"rarity.unusualachievements.raids_won": "Один раз на %s выигранных рейдов",
+	"rarity.unusualachievements.minecart_metres": "Один раз на %s м в вагонетке",
+	"rarity.unusualachievements.percent": " — %s%%",
+	"rarity.unusualachievements.among_players": " · есть у %s из %s игроков",
+
+	"hud.unusualachievements.hint_open_card": "Нажми %s, чтобы узнать"
+}
