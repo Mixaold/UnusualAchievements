@@ -8,7 +8,7 @@
 |---|---|
 | **Name** | Unusual Achievements |
 | **Slug** | `unusual-achievements` |
-| **Summary** | Fifty hidden achievements with no list and no hints — you only find out what one was after you have already done it. Everything you unlock lives on a card other players can read. |
+| **Summary** | Adds 50 hidden achievements, shown on a card other players can read. |
 | **Type / Loader** | Mod / Fabric |
 | **Game versions** | 26.2 |
 | **Client side** | **Required** |
@@ -35,148 +35,51 @@
 
 ## Unusual Achievements
 
-Vanilla advancements tell you what to do next. This one never does.
+50 hidden achievements. No list, no hints, no progress bars.
 
-Fifty hidden achievements: no list, no progress bars, no "3 of 10". You do something strange —
-usually something you would never do on purpose — and the game quietly counts it. Beat a creeper to
-death with your bare hands while standing in lava in a thunderstorm: that is one of them. Type a
-goodbye in chat and die within thirty seconds: that is another.
+Nobody tells you what they are. You do something odd, the game counts it, and only then do you find
+out what it was. Most of them you hit by accident.
 
-Nobody tells you how to get them. That is the whole mod.
+Everything you unlock goes on a card. **J** opens yours. Aim at another player and press it again to
+see theirs.
 
-### The card
+12 card backgrounds, each locked behind one achievement, so a card says something about who is
+holding it. The locked ones are shown too, greyed out under a padlock.
 
-Everything you have unlocked lives on a card. **J** opens yours.
+Every unlock says how rare it is in your own game: "once in 3418 mob kills", counted from your
+vanilla stats.
 
-Aim at another player and press the same key to open **theirs** — their unlocks, their chosen look,
-written in your language rather than in theirs.
+No chat spam, no window across half the screen. Just a small gold marker by the hotbar that flips
+into a red "!".
 
-### Themes you earn, not pick
+Settings in `config/unusualachievements.json`. The key is rebindable in Options → Controls.
 
-Twelve pixel-art backgrounds, each locked behind one specific achievement and chosen so that the
-backdrop says something about what its owner did. Nether ash and lava goes to whoever fought a
-creeper barehanded in a lava pool. The Ancient City one goes to whoever killed a Warden without
-taking a single hit from it.
-
-Every theme also brings its own frame for your player head, so an equipped card reads as one piece.
-
-Locked themes are still shown in the wardrobe — dimmed, padlocked and named. A look you cannot wear
-yet is a hint that something out there is still unfound.
-
-### A rarity that is actually about you
-
-Every unlock carries a line like *"once in 3418 mob kills"* — how often it happened in **your** game,
-read from the vanilla statistics Minecraft already keeps for you. Where vanilla has no counter for
-what the achievement asked (nothing tracks kills made mid-fall), it falls back to hours played
-instead of inventing a percentage. On a populated server it also shows how many players hold the
-thing at all.
-
-### Quiet by design
-
-No chat spam, no toast across half the screen. An unlock is a small gold marker beside your hotbar
-that flips into a red "!", plus a soft sound. Once per game, at the very first unlock, it also tells
-you which key opens the card.
-
-### Multiplayer
-
-Unlocks are detected and stored **on the server**, so your card is the same wherever you log in from,
-and a client cannot hand itself something it did not earn. Your chosen theme is stored there too —
-otherwise nobody but you would ever see it.
-
-> ### ⚠️ Install it on the client AND the server
-> The mod has its own network packets: a client without it cannot open cards, a server without it
-> has nothing to send. Same version on both sides.
-
-### Settings
-
-`config/unusualachievements.json` — `overlayEnabled` turns the hotbar marker off entirely. The key is
-rebindable in Options → Controls, under **Unusual Achievements**.
-
-### For server operators
-
-`/uadev` lists the whole pool with every condition spelled out and can force-unlock entries for
-testing. Operator only: it does not even tab-complete for anyone else, and the server re-checks the
-permission before granting anything.
-
-It spoils every secret in the mod. Open it only if you are willing to know.
-
-Fabric · Minecraft 26.2 · Fabric API
-
-MIT license — use it, fork it, put it in your modpack.
+Fabric · Minecraft 26.2 · Fabric API. MIT.
 
 ---
----
 
-# ЧАСТЬ 3. Описание (Русский)
+## Unusual Achievements
 
-## Необычные достижения
+50 скрытых достижений. Ни списка, ни подсказок, ни полосок прогресса.
 
-Ванильные достижения всегда говорят, что делать дальше. Это — никогда.
+Никто не скажет, какие они. Ты делаешь что-то странное, игра это засчитывает, и только тогда ты
+узнаёшь, что это было. Большинство ловятся случайно.
 
-Пятьдесят скрытых достижений: ни списка, ни полосок прогресса, ни «пройдено 3 из 10». Ты делаешь
-что-то странное — обычно то, что специально делать бы не стал, — и игра молча это засчитывает. Забить
-крипера голыми руками, стоя в лаве во время грозы, — это одно из них. Написать в чат прощание и
-умереть в течение тридцати секунд — другое.
+Всё открытое ложится на карточку. Своя — на **J**. Наведись на другого игрока и нажми ещё раз,
+увидишь его.
 
-Как их получить, никто не расскажет. В этом весь мод.
+12 фонов для карточки, каждый закрыт за одним достижением, так что по карточке видно, что за человек.
+Закрытые тоже показаны — серые, под замком.
 
-### Карточка
+У каждого достижения написано, насколько оно редкое в твоей игре: «один раз на 3418 убийств», по
+обычной ванильной статистике.
 
-Всё открытое лежит на карточке. Своя открывается на **J**.
+Никакого спама в чат и окон на пол-экрана. Просто маленький золотой значок у хотбара, который
+переворачивается в красный восклицательный знак.
 
-Наведись на другого игрока и нажми ту же клавишу — откроется **его**: его достижения, его оформление,
-и текст на твоём языке, а не на его.
+Настройки в `config/unusualachievements.json`. Клавиша переназначается в «Управлении».
 
-### Темы, которые зарабатывают, а не выбирают
-
-Двенадцать пиксельных фонов, каждый закрыт за конкретным достижением и подобран так, чтобы фон говорил
-о том, что человек сделал. Пепел и лава достаётся тому, кто дрался с крипером голыми руками в луже
-лавы. Древний город — тому, кто убил Стража, не получив от него ни одного удара.
-
-К каждой теме идёт своя рамка для головы игрока, так что надетая карточка смотрится цельной.
-
-Закрытые темы всё равно видны в выборе — затемнённые, с замком и названием. Оформление, которое ещё
-нельзя надеть, само по себе намекает, что где-то есть что искать.
-
-### Редкость, которая правда про тебя
-
-У каждого достижения есть строка вроде «один раз на 3418 убийств» — насколько редко это случалось
-именно **в твоей** игре, посчитано по обычной ванильной статистике, которую майн и так ведёт. Там, где
-подходящего счётчика в ваниле нет (убийства в падении никто не считает), берутся часы в игре, а не
-выдуманный процент. На живом сервере рядом показано ещё и то, у скольких игроков оно вообще есть.
-
-### Ненавязчиво
-
-Никакого спама в чат и окон на пол-экрана. Получение — небольшой золотой значок у хотбара, который
-переворачивается в красный восклицательный знак, и тихий звук. Один раз за всю игру, на самом первом
-достижении, он ещё и подскажет, какой клавишей открывается карточка.
-
-### Мультиплеер
-
-Достижения определяются и хранятся **на сервере**: карточка одинаковая, откуда бы ты ни зашёл, а
-клиент не может выдать себе то, чего не заработал. Выбранная тема тоже лежит на сервере — иначе её
-видел бы только ты сам.
-
-> ### ⚠️ Ставить и на клиент, и на сервер
-> У мода свои сетевые пакеты: без него клиент не откроет карточку, а серверу нечего отдавать. Версия
-> одна и та же с обеих сторон.
-
-### Настройки
-
-`config/unusualachievements.json` — `overlayEnabled` полностью выключает значок у хотбара. Клавишу
-можно переназначить в «Настройки → Управление», раздел **Необычные достижения**.
-
-### Для администраторов
-
-`/uadev` показывает весь пул достижений с расписанными условиями и выдаёт любое для проверки. Только
-для операторов: у остальных команда даже не появляется в подсказках, а сервер отдельно перепроверяет
-право перед выдачей.
-
-Она раскрывает все секреты мода. Открывай, только если готов их узнать.
-
-Fabric · Minecraft 26.2 · Fabric API
-
-Лицензия MIT — пользуйтесь, форкайте, кладите в сборки.
+Fabric · Minecraft 26.2 · Fabric API. MIT.
 
 ---
 ---
@@ -185,7 +88,13 @@ Fabric · Minecraft 26.2 · Fabric API
 
 Записано, чтобы это не добавили обратно по ошибке:
 
-- **Список достижений.** Публикация условий убила бы единственную механику мода. На странице названы
-  ровно два, и оба уже используются как примеры на экране «?» внутри самого мода.
+- **Ни одного условия, даже как пример.** Раньше на странице стояли два («забить крипера голыми руками
+  в лаве», «написать прощание и умереть») — с оправданием, что они и так есть на экране «?» внутри
+  мода. Оправдание не работает: внутри мода их видит тот, кто уже играет, а на странице их читает
+  каждый, ещё до установки. Мод целиком держится на том, что условий не знают. Убрано.
+- **`/uadev`.** На странице о нём не пишем: это указатель на то, что существует способ прочитать все
+  50 условий разом. Описан в README репозитория, этого достаточно.
 - **Скриншоты.** Их надо снять в игре — список кадров в ЧАСТИ 1. Это единственное, что остаётся
   сделать перед публикацией.
+- **Блок «ставить и на клиент, и на сервер».** Убран по просьбе — на странице это и так сказано полями
+  Client / Server Required, а в описании читалось как инструкция посреди рассказа о моде.

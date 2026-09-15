@@ -2,14 +2,12 @@
 
 Fabric mod for Minecraft 26.2.
 
-50 hidden achievements with no list, no progress bars and no hints. You do something strange —
-usually something you would never do on purpose — and the game quietly counts it. Everything you
-unlock lives on a personal card: press **J** to open yours, aim at another player and press it again
-to read theirs.
+50 hidden achievements. No list, no hints, no progress bars. Nobody tells you what they are: you do
+something odd, the game counts it, and only then do you find out what it was.
 
-Twelve pixel-art card backgrounds are locked behind specific achievements, so a card's look says
-something about what its owner actually did. Every unlock also carries how rare it was in your own
-game, counted from the vanilla statistics Minecraft already keeps.
+Everything you unlock goes on a card. **J** opens yours, aiming at another player and pressing it
+again opens theirs. 12 card backgrounds are locked behind single achievements, and every unlock says
+how rare it is in your own game, counted from your vanilla stats.
 
 ## Install
 
@@ -46,13 +44,12 @@ MIT.
 
 Мод под Fabric для Minecraft 26.2.
 
-50 скрытых достижений: без списка, без полосок прогресса, без подсказок. Ты делаешь что-то странное —
-обычно то, что специально делать бы не стал, — и игра молча это засчитывает. Всё открытое лежит на
-личной карточке: **J** открывает свою, наведись на другого игрока и нажми ту же клавишу — откроется его.
+50 скрытых достижений. Ни списка, ни подсказок, ни полосок прогресса. Никто не скажет, какие они: ты
+делаешь что-то странное, игра это засчитывает, и только тогда ты узнаёшь, что это было.
 
-Двенадцать пиксельных фонов карточки закрыты за конкретными достижениями, так что по оформлению видно,
-что человек сделал. У каждого достижения показано, насколько редко оно случалось именно в твоей игре —
-посчитано по обычной ванильной статистике, которую майн и так ведёт.
+Всё открытое ложится на карточку. Своя — на **J**, наведись на другого игрока и нажми ещё раз —
+увидишь его. 12 фонов карточки закрыты за отдельными достижениями, и у каждого достижения написано,
+насколько оно редкое в твоей игре, по обычной ванильной статистике.
 
 ## Установка
 

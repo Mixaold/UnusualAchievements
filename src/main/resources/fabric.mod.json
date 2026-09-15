@@ -3,7 +3,7 @@
 	"id": "unusualachievements",
 	"version": "${version}",
 	"name": "Unusual Achievements",
-	"description": "Fifty hidden achievements for things vanilla never thought to reward, shown on a personal card with earned backgrounds and a rarity read from your own statistics.",
+	"description": "Adds 50 hidden achievements, shown on a card other players can read.",
 	"authors": [
 		"Mixaold"
 	],
