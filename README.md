@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://modrinth.com/mod/unusualachivments"><img src="media/btn-modrinth.png" alt="Download on Modrinth" height="46"></a>
-  <a href="https://github.com/Mixaold/UnusualAchievements/issues"><img src="media/btn-issues.png" alt="Report a bug" height="46"></a>
-  <a href="https://www.donationalerts.com/r/mixaold"><img src="media/btn-donate.png" alt="Donate" height="46"></a>
+  <a href="https://modrinth.com/mod/unusualachivments"><img src="media/btn-modrinth.png" alt="Download on Modrinth" height="44"></a>
+  <a href="https://github.com/Mixaold/UnusualAchievements/issues"><img src="media/btn-issues.png" alt="Report a bug" height="44"></a>
+  <a href="https://www.donationalerts.com/r/mixaold"><img src="media/btn-donate.png" alt="Donate" height="44"></a>
 </p>
 
 <p align="center">
